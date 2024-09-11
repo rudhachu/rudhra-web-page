@@ -2,7 +2,7 @@
     "description": "qr",
     "main": "./index.js",
     "engines" : { 
-    "npm" : ">=10.8.2",
+    "npm" : ">=10.8.3",
     "node" : ">=22.7.0"
     },
     "scripts": {
