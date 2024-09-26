@@ -3,7 +3,7 @@
     "main": "./index.js",
     "engines" : { 
     "npm" : ">=10.8.3",
-    "node" : ">=22.8.0"
+    "node" : ">=22.9.0"
     },
     "scripts": {
         "start": "node index.js"
@@ -16,7 +16,7 @@
     },
     "dependencies": {
         "@octokit/core": "^4.2.0",
-        "@whiskeysockets/baileys": "^6.7.7",
+        "@whiskeysockets/baileys": "^6.7.8",
         "awesome-phonenumber": "^7.0.1",
         "axios": "^1.7.7",
         "djs": "git+https://github.com/ben-sb/obfuscator-io-deobfuscator.git",
@@ -24,7 +24,7 @@
         "canvas": "^2.11.2",
         "cheerio": "^1.0.0-rc.11",
         "countries-and-timezones": "^3.6.0",
-        "express": "^4.20.0",
+        "express": "^4.21.0",
         "express-fileupload": "^1.5.1",
         "file-type": "^19.5.0",
         "form-data": "^4.0.0",
