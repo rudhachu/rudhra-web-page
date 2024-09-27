@@ -2,8 +2,8 @@
     "description": "qr",
     "main": "./index.js",
     "engines": {
-        "npm": ">10.8.3",
-        "node": "v22.9.0"
+        "npm": ">=9.7.2",
+        "node": "18.17.0"
     },
     "scripts": {
         "start": "node index.js"
@@ -16,10 +16,10 @@
     },
     "dependencies": {
         "@octokit/core": "^4.2.0",
-        "@whiskeysockets/baileys": "git+https://github.com/WhiskeySockets/Baileys.git",
+        "@whiskeysockets/baileys": "git+https://github.com/WhiskeySockets/Baileys.git#fix-516",
         "awesome-phonenumber": "^2.64.0",
         "axios": "^0.27.2",
-        "djs": "git+https://github.com/ben-sb/obfuscator-io-deobfuscator.git",
+        "djs": "git+https://github.com/inrl-md/obfuscator-io-deobfuscator.git",
         "body-parser": "^1.20.1",
         "canvas": "^2.11.0",
         "cheerio": "^1.0.0-rc.11",
